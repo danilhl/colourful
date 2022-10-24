@@ -32,7 +32,7 @@ document.addEventListener('click', event =>{
 function firstMassage(){
     massage.forEach(massage => {
         massage.style.display = 'flex'
-        setTimeout(() => {massage.style.display = 'none'}, 5000)
+        setTimeout(() => {massage.style.display = 'none'}, 6000)
     })
 }
 
